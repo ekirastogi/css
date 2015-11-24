@@ -1,0 +1,10 @@
+.flipcard-container{height:300px; width:200px;background:green;position:relative;perspective:600px;}
+.front,.back{margin:0px;display: block;height:300px; width:200px;position:absolute;backface-visibility:hidden;transition:2s;transform-style: preserve-3d;width: 100%;height: 100%;}
+.front{background:red;z-index:1;}
+.back{background:blue;}
+.horizontal .back{transform:rotateY(180deg);}
+.vertical .back{transform:rotateX(180deg);}
+.flipcard.horizontal:hover .front{transform:rotateY(180deg);}
+.flipcard.horizontal:hover .back{transform:rotateY(360deg);}
+.flipcard.vertical:hover .front{transform:rotateX(180deg);}
+.flipcard.vertical:hover .back{transform:rotateX(360deg);}

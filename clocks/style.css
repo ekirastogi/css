@@ -1,0 +1,9 @@
+.clock{margin:20px;}
+.clock-outer{width:210px;height:210px;background:red;float:left;}
+.clock-inner{width:200px;height:200px;background:blue;margin:5px;margin-top:5px;position:relative;}
+.clock .hand{width:15px;height:15px;float:left;background:green;margin:2px;}
+.clock .hrs-hand{width:4px;height:60px;background:rgba(233,191,26,0.9);position:absolute;left:98px;margin-top:40px;}
+.clock .min-hand{width:4px;height:70px;background:rgba(233,191,26,0.9);position:absolute;left:98px;margin-top:30px;}
+.clock .sec-hand{width:4px;height:80px;background:rgba(228,34,188,0.9);position:absolute;left:98px;margin-top:20px;}
+.clock .centre{width:6px;height:6px;background:#dddddd;position:absolute;top:97px;left: 97px;}
+.clock-round.clock-outer,.clock-round.clock-inner{border-radius:50%;-webkit-border-radius:50%;}
