@@ -1,9 +1,11 @@
 .flipcard-container{background:#ffffff;perspective:600px;float:left;border:2px solid #ddd;margin:10px;}
 .flipcard{height:384px; width:200px;position:relative;}
 .flipcard-desc{background: none;text-align: center;}
+.iphone-front{background:url('../images/iphone.jpg') 200px -8px;}
+.iphone-back{background:url('../images/iphone.jpg') 0px -8px;}
 .front,.back{margin:0px;display: block;height:300px; width:200px;position:absolute;backface-visibility:hidden;transition:1s;transform-style: preserve-3d;width: 100%;height: 100%;}
-.front{background:url('../images/iphone.jpg') 200px -8px;z-index:1;}
-.back{background:url('../images/iphone.jpg') 0px -8px;;}
+.front{z-index:1;}
+.back{}
 .horizontal .back{transform:rotateY(180deg);}
 .vertical .back{transform:rotateX(180deg);}
 .flipcard.horizontal:hover .front{transform:rotateY(180deg);}
